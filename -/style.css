@@ -1,0 +1,52 @@
+body{
+    background-color: white;
+    color: black;
+}
+
+h1{
+    text-align: center;
+}
+
+.box{
+    background-color: red;
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    padding: 40px;
+}
+
+.box2{
+    background-color: blue;
+    height: 200px;
+    width: 900px;
+    margin: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.txt1{
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    word-spacing: 222px;
+}
+
+.link{
+    font-size: 100px;
+}
+
+.link:hover{
+    color: black;
+}
+
+.link:link{
+    color: yellow;
+}
+
+.link:active{
+    color: green;
+}
+
+.link:visited{
+    color: blue;
+}

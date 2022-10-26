@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="print()">Print Makanan Kesukaan</button>
+    <ul id="hasil"></ul>
+
+    <script>
+        function print() {
+            const data = document.getElementById("hasil");
+            const list_makan = ["nasi goreng", "ayam goreng", "sate ayam", "soto ayam"];
+            for(let index=0; index < list_makan.length; index++) {
+                data.innerHTML = data.innerHTML + `<li>${list_makan[index]}</li>`;
+            }
+        }
+    </script>
+</body>
+</html>

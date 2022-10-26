@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    background-color: #f6f7fc;
+    font-family: 'Roboto', sans-serif;
+}
+#profile {
+    display: flex;
+    background-color: white;
+    margin: 40px;
+    padding: 24px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px 3px rgba(191, 191, 191, 0.33);
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(191, 191, 191, 0.33);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(191, 191, 191, 0.33);
+}
+#image {
+    flex: 1;
+}
+.profile-image {
+    width: 100%;
+    border-radius: 50%;
+}
+#name {
+    flex: 2;
+    padding-left: 16px;
+    border-right: 3px solid #cfcfcf;
+}
+#name p {
+    font-family: Arial, Helvetica, sans-serif;
+    color:gray;
+}
+#name h1 {
+    font-family: 'Fasthand', cursive;
+}
+#detail {
+    flex: 4;
+    padding-left: 16px;
+}
+.display-flex {
+    display: flex;
+}
+.btn-kontak {
+    margin-right: 16px;
+}
+td {
+    padding: 4px;
+}
+
+@media (max-width: 576px) {
+    #profile {
+        flex-direction: column;
+    }
+    #name {
+        border: none;
+        text-align: center;
+        padding-left: 0;
+    }
+    .display-flex {
+        justify-content: center;
+    }
+    #detail {
+        margin: auto;
+        padding-top: 20px;
+        padding-left: 0;
+    }
+}

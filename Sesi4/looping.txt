@@ -1,0 +1,15 @@
+STORE "number" with 1     -> INISIASI
+WHILE "number" <= 10      -> KONDISI
+    DISPLAY "number"      -> ACTION
+    ADD "number" with 1   -> ITERASI
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10

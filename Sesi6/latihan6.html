@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Regex</title>
+</head>
+<body>
+    <script>
+        // PENULISAN REGEX LITERAL
+        const foo = /ab+c/;
+
+        console.log(foo);
+        console.log(typeof foo);
+
+        // PENULISAN REGEX OBJECT CONSTRUCTOR
+        const inputRegex = prompt("masukkan regex");
+        const bar = new RegExp(inputRegex);
+
+        console.log(bar);
+        console.log(typeof bar);
+    </script>
+</body>
+</html>

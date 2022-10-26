@@ -1,0 +1,11 @@
+STORE "number" with 1  
+WHILE "number" <= 10      
+    DISPLAY "number"
+    COMPUTE "number" mod 2
+    STORE "remainder" to the result of calculation
+    IF "remainder" equal to 0
+        DISPLAY "EVEN!"
+    ELSE
+        DISPLAY "ODD"
+    ADD "number" with 1 
+    STORE "number" to the result of calculation

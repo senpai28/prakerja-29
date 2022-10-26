@@ -1,0 +1,7 @@
+READ and SAVE "nama" 
+READ and SAVE "nilai mahasiswa"
+IF "nilai" >= 60
+    SAVE "keterangan" equal to "LULUS"
+ELSE
+    SAVE "keterangan" equal to "TIDAK LULUS"
+DISPLAY "nama" dan "keterangan"

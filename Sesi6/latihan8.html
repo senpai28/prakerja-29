@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        const password1 = "admin123!"
+        const password2 = "admin123@"
+        const password3 = "p@ssw0rd"
+        const polaPassword = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$/
+
+        console.log(polaPassword.test(password1)); 
+        console.log(polaPassword.test(password2)); 
+        console.log(polaPassword.test(password3)); 
+    </script>
+</body>
+</html>
